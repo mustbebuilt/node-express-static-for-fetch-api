@@ -50,7 +50,7 @@
               <p class="myLabel">Star Rating</p>
             </div>
 
-            <div>
+            <div class="radio">
               <label><input type="radio" name="stars" value="0" />0</label>
               <label><input type="radio" name="stars" value="1" />1</label>
               <label><input type="radio" name="stars" value="2" />2</label>
@@ -83,11 +83,11 @@
     (function () {
       // Insert Form
       // MongoDb
-      let api = "https://nodeshufilms.azurewebsites.net/api/films";
+      //let api = "https://nodeshufilms.azurewebsites.net/api/films";
       // .net
       //let api = "http://movieapishu.azurewebsites.net/api/films";
       // PHP
-      //let api = "https://mustbebuilt.co.uk/SHU/films-api/api.php";
+      let api = "https://mustbebuilt.co.uk/SHU/films-api/api.php";
       document.getElementById("insertForm").addEventListener("submit", (ev) => {
         ev.preventDefault();
         var formData = new FormData(ev.target);

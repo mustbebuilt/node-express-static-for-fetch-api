@@ -1,8 +1,8 @@
-# 01-static-express-demo
+# Demo Site for API Calls
 
-Example of Using Static Files with Express
+Node / express used for a basic webserver to enable fetch calls to an API.
 
-The static files images, html, css etc are stored in the public folder.
+The static files are stored in the public folder.
 
 This is configured in the app.js with:
 

@@ -5,9 +5,6 @@ const app = express();
 
 app.use(express.static("./public"));
 
-app.get('/news', (req, res) =>
-    res.send('<p>some text</p>')
-)
 
 app.listen(3000);
 
