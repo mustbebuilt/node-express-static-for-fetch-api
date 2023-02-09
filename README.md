@@ -14,5 +14,5 @@ To build docker run:
 
 ```
 docker build . -t mustbebuilt/node-web-app
-docker run -p 49160:3000 -v C:/Users/student/Desktop/myRepos/node-express-static-for-fetch-api/:/usr/src/app mustbebuilt/node-web-app
+docker run -p 49160:3000 -v C:/Users/student/Desktop/myRepos/node-express-static-for-fetch-api/:/usr/src/app --name "fetchapinodeexpress" mustbebuilt/node-web-app 
 ```
