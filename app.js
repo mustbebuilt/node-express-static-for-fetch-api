@@ -1,6 +1,7 @@
 const { ok } = require("assert");
 const express = require("express");
 const path = require("path");
+const PORT = process.env.PORT || 3000;
 
 const app = express();
 
@@ -10,8 +11,8 @@ app.get("/test", (req, res) => {
   res.send("hi");
 });
 
-app.listen(3000);
+app.listen(PORT);
 
-console.log("Express on 3000");
+ console.log(`Server is listening on port ${PORT}`);
 
 module.exports = app;
